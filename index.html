@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>String Length Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>String Length Calculator</h1>
+    <p>Enter strings below and click "Calculate" to see their lengths.</p>
+  </header>
+
+  <main>
+    <section id="calculator">
+      <h2>Calculate</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>String 1</th>
+            <th>String 2</th>
+            <th>String 3</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><input type="text" id="string1" placeholder="Enter String 1"></td>
+            <td><input type="text" id="string2" placeholder="Enter String 2"></td>
+            <td><input type="text" id="string3" placeholder="Enter String 3"></td>
+          </tr>
+        </tbody>
+      </table>
+      <button onclick="calculateLengths()">Calculate</button>
+
+      <h3>Results:</h3>
+      <p id="result1"></p>
+      <p id="result2"></p>
+      <p id="result3"></p>
+
+      <button onclick="resetFields()">Reset</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>Created by [Your Name]. Powered by HTML, CSS, and JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
